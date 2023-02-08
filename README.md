@@ -81,20 +81,20 @@ We can implement `toString()` in any manner we wish; however, the easiest thing 
 IntelliJ generate it for us.  The `toString()` method can be placed anywhere in the class,
 but we will place it directly before the `main()` method.
 
-1. Position the cursor after the fields and before the `main()` method.
-2. Right-click and select "Generate" from the menu.       
-   
-   ![toString step 1 and 2](https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/tostring_1.png)  
+Position the cursor after the fields and before the `main()` method.
+Right-click and select "Generate" from the menu.
 
-3. Select "toString()" from the menu.    
+![toString step 1 and 2](https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/tostring_1.png)
 
-   ![toString step 3](https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/tostring_2.png)    
+Select "toString()" from the menu.
 
-4. Select all fields and then press "OK".
+![toString step 3](https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/tostring_2.png)    
 
-   ![toString step 4](https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/tostring_3.png)
+Select all fields and then press "OK".
 
-5. Confirm the new method named `toString()` has been added to the class above the `main` method:   
+![toString step 4](https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/tostring_3.png)
+
+Confirm the new method named `toString()` has been added to the class above the `main` method:
 
 ```java
 @Override
